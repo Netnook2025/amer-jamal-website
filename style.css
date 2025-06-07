@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الأستاذ عامر جمال - لغة إنجليزية باحترافية</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>الأستاذ عامر جمال</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">الرئيسية</a></li>
+                    <li><a href="#about">عن الأستاذ</a></li>
+                    <li><a href="#courses">الدورات</a></li>
+                    <li><a href="#resources">الموارد</a></li>
+                    <li><a href="#testimonials">آراء الطلاب</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h2>تعلم الإنجليزية بطلاقة مع الأستاذ عامر جمال</h2>
+                <p>مدرس محترف بخبرة واسعة في تدريس جميع مستويات اللغة الإنجليزية، التحضير للاختبارات الدولية، والمحادثة.</p>
+                <a href="#courses" class="btn primary-btn">اكتشف دوراتنا</a>
+                <a href="#contact" class="btn secondary-btn">احجز استشارة مجانية</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/amer-jamal-placeholder.jpg" alt="صورة الأستاذ عامر جمال">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>عن الأستاذ عامر جمال</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>بصفتي الأستاذ عامر جمال، أمتلك شغفًا عميقًا بتعليم اللغة الإنجليزية لأكثر من <strong>12 عامًا</strong>. خلال مسيرتي المهنية، قمت بمساعدة مئات الطلاب من مختلف الأعمار والمستويات على تحقيق أهدافهم اللغوية، سواء كان ذلك للنجاح في الامتحانات الدولية مثل <strong>IELTS و TOEFL</strong>، أو تطوير مهارات المحادثة بطلاقة، أو بناء أساس قوي في قواعد اللغة والمفردات.</p>
+                    <p>تعتمد فلسفتي في التدريس على نهج تفاعلي وشخصي، يركز على احتياجات كل طالب لضمان أقصى استفادة. أؤمن بأن تعلم اللغة يجب أن يكون ممتعًا وملهمًا، لذلك أستخدم أساليب تدريس حديثة ومواد متنوعة لجعل العملية شيقة وفعالة.</p>
+                    <h3>مؤهلاتي وخبراتي:</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> بكالوريوس في اللغة الإنجليزية وآدابها.</li>
+                        <li><i class="fas fa-check-circle"></i> شهادات تدريس دولية (مثل CELTA أو TEFL إذا وجدت).</li>
+                        <li><i class="fas fa-check-circle"></i> متخصص في التحضير لاختبارات IELTS و TOEFL الأكاديمية والعامة.</li>
+                        <li><i class="fas fa-check-circle"></i> خبرة واسعة في تدريس اللغة الإنجليزية للأعمال والمحادثة.</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/amer-jamal-teaching.jpg" alt="الأستاذ عامر جمال يشرح">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h2>دوراتنا في اللغة الإنجليزية</h2>
+            <p class="section-description">نقدم مجموعة متنوعة من الدورات المصممة لتلبية احتياجاتك التعليمية.</p>
+            <div class="course-grid">
+                <div class="course-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>دورة التحضير لاختبار IELTS</h3>
+                    <p>إعداد شامل لجميع أقسام اختبار IELTS (الاستماع، القراءة، الكتابة، المحادثة) مع استراتيجيات فعالة ونصائح لضمان أعلى الدرجات.</p>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> المدة: 40 ساعة</li>
+                        <li><i class="fas fa-users"></i> نوع الدورة: فردي / مجموعات صغيرة</li>
+                        <li><i class="fas fa-dollar-sign"></i> السعر: تواصل معنا</li>
+                    </ul>
+                    <a href="#contact" class="btn course-btn">اشترك الآن</a>
+                </div>
+                <div class="course-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>دورة التحضير لاختبار TOEFL</h3>
+                    <p>دورة مكثفة تركز على مهارات اختبار TOEFL الأكاديمي، بما في ذلك القراءة والكتابة والاستماع والتحدث، لتأهيلك للجامعات العالمية.</p>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> المدة: 35 ساعة</li>
+                        <li><i class="fas fa-users"></i> نوع الدورة: فردي / مجموعات صغيرة</li>
+                        <li><i class="fas fa-dollar-sign"></i> السعر: تواصل معنا</li>
+                    </ul>
+                    <a href="#contact" class="btn course-btn">اشترك الآن</a>
+                </div>
+                <div class="course-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>دورة المحادثة المتقدمة</h3>
+                    <p>عزز ثقتك وطلاقتك في المحادثة من خلال تمارين عملية ومناقشات تفاعلية حول مواضيع متنوعة.</p>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> المدة: 30 ساعة</li>
+                        <li><i class="fas fa-users"></i> نوع الدورة: مجموعات صغيرة</li>
+                        <li><i class="fas fa-dollar-sign"></i> السعر: تواصل معنا</li>
+                    </ul>
+                    <a href="#contact" class="btn course-btn">اشترك الآن</a>
+                </div>
+                <div class="course-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>دروس خصوصية (One-on-One)</h3>
+                    <p>برامج مخصصة لاحتياجاتك الفردية، مع التركيز على نقاط الضعف وتحقيق أهدافك الشخصية بسرعة وفعالية.</p>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> المدة: مرنة</li>
+                        <li><i class="fas fa-users"></i> نوع الدورة: فردي</li>
+                        <li><i class="fas fa-dollar-sign"></i> السعر: حسب عدد الساعات</li>
+                    </ul>
+                    <a href="#contact" class="btn course-btn">احجز الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="resources-section">
+        <div class="container">
+            <h2>موارد تعليمية مجانية</h2>
+            <p class="section-description">استفد من مكتبتنا الواسعة من الموارد التعليمية التي تساعدك على تحسين لغتك الإنجليزية.</p>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <i class="fas fa-blog"></i>
+                    <h3>مدونة الأستاذ عامر</h3>
+                    <p>مقالات ونصائح قيمة حول تعلم اللغة الإنجليزية، قواعد، مفردات، واستراتيجيات الامتحانات.</p>
+                    <a href="#" class="btn resource-btn">اقرأ المدونة</a>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-video"></i>
+                    <h3>دروس فيديو</h3>
+                    <p>شاهد شروحات مرئية لمفاهيم اللغة الصعبة وتمارين المحادثة.</p>
+                    <a href="#" class="btn resource-btn">شاهد الفيديوهات</a>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-headphones"></i>
+                    <h3>بودكاست اللغة الإنجليزية</h3>
+                    <p>استمع إلى حلقات بودكاست لممارسة الاستماع وتحسين النطق.</p>
+                    <a href="#" class="btn resource-btn">استمع الآن</a>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-book"></i>
+                    <h3>كتب ومواقع موصى بها</h3>
+                    <p>قائمة بأفضل الكتب والمصادر الخارجية لتعلم اللغة الإنجليزية.</p>
+                    <a href="#" class="btn resource-btn">اكتشف المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2>ماذا يقول طلابنا؟</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <p>"بفضل الأستاذ عامر، تمكنت من تحقيق درجة 7.5 في اختبار IELTS! شرحه كان واضحًا ومركّزًا، والمتابعة مستمرة. أنصح به بشدة."</p>
+                    <h4>- سارة أحمد</h4>
+                    <span>طالبة IELTS</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"دروس الأستاذ عامر جعلتني أتحدث الإنجليزية بثقة أكبر. أساليبه تفاعلية وممتعة، وأستمتع بكل حصة معه."</p>
+                    <h4>- محمد علي</h4>
+                    <span>طالب محادثة</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"لم أكن أتخيل أن قواعد اللغة الإنجليزية يمكن أن تكون سهلة ومفهومة لهذه الدرجة قبل أن أدرس مع الأستاذ عامر. شكراً جزيلاً!"</p>
+                    <h4>- فاطمة الزهراء</h4>
+                    <span>طالبة لغة عامة</span>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <p class="section-description">نحن هنا لمساعدتك في رحلتك لتعلم اللغة الإنجليزية. املأ النموذج أدناه وسنتواصل معك قريباً.</p>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف (اختياري):</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="course_interest">اهتمام بالدورة:</label>
+                            <select id="course_interest" name="course_interest">
+                                <option value="">اختر دورة</option>
+                                <option value="ielts">IELTS</option>
+                                <option value="toefl">TOEFL</option>
+                                <option value="conversation">محادثة</option>
+                                <option value="private">دروس خصوصية</option>
+                                <option value="general">لغة إنجليزية عامة</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">رسالتك:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">إرسال الرسالة</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>معلومات الاتصال</h3>
+                    <p><i class="fas fa-phone"></i> **الهاتف:** +966 5xxxxxxxx</p>
+                    <p><i class="fas fa-envelope"></i> **البريد الإلكتروني:** info@amerjamalenglish.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> **العنوان:** [عنوانك هنا، مثلاً: الرياض، المملكة العربية السعودية]</p>
+                    <p><strong>ساعات العمل:</strong></p>
+                    <ul>
+                        <li>الأحد - الخميس: 9:00 صباحًا - 8:00 مساءً</li>
+                        <li>السبت: 10:00 صباحًا - 6:00 مساءً</li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="https://facebook.com/amerjamalenglish" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/amerjamalenglish" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/in/amerjamal" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/amerjamalenglish" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 الأستاذ عامر جمال. جميع الحقوق محفوظة.</p>
+            <p>تصميم وتطوير بواسطة [اسمك/اسم شركتك إن وجد]</p>
+        </div>
+    </footer>
+
+</body>
+</html>
